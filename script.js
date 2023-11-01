@@ -1,26 +1,12 @@
+// 0 = red
+// 1 = blue
+let selectedColors = ['red','blue'];
 
-
-
-let isApproved = true; // Boolean Literal (true; as well)
-let firstName = undefined;
-let selectedColor = null; // Clear the value of a variablegi
-
-let person = {
-    name: 'Enes', 
-    age:21
-}
- //Dot Notation 
-/* How to change the objects with a dot. 
-declare the object first then put a dot with value you want to change
+// can add to arrays like this 
+/*
+because there is no 2 index its only 0 and 1 you are adding a new array like this 
 */
- person.name = 'John'
-person.age = '22'
+selectedColors[2] = 1
 
-
-// Bracket Notation
-let selection = 'name'
-person[selection] = 'Mary'
-
- console.log(person.name)
- console.log(person.age)
-
+//Console log with the array name and the index you want to target
+console.log(selectedColors.length)
