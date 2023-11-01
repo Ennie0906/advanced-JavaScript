@@ -1,12 +1,14 @@
-// 0 = red
-// 1 = blue
-let selectedColors = ['red','blue'];
 
-// can add to arrays like this 
-/*
-because there is no 2 index its only 0 and 1 you are adding a new array like this 
+
+/*This greet function has a paramater of name
+which is only meaningful in the greet function 
 */
-selectedColors[2] = 1
+function greet(name, lastName) {
+    // Functions can have inputs
+    console.log('Hello' + ' ' + name + ' ' + lastName)
+}
 
-//Console log with the array name and the index you want to target
-console.log(selectedColors.length)
+//Need to pass a value to the greet 
+//John is an argument to the greet function
+//Name is a paramater of the greet function
+greet('John', 'Peker');
